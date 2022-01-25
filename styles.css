@@ -1,4 +1,9 @@
-p{font-size:30px;
-  line-height:1.5;
-  text-align:justify;
+.one {
+    font: 13px/20px 'Times New Roman';
 }
+.two{width:300px;
+     color:red;
+     font:bold 40px Arial;
+}
+.three{text-indent:50px;
+       font:bold italic 60px/40px Arial }
