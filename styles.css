@@ -1,9 +1,4 @@
-.aa {
-    font-family: Arial;
+p{font-size:30px;
+  line-height:15px;
+  text-align:justify;
 }
-.bb{font-family:'Times New Roman';}
-
-.cc{font-family:'Comic Sans MS';}
-
-.ee {
-    font-family: Impact;}
