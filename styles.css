@@ -1,11 +1,12 @@
+i {
+    font-size: 30px;/*30px*/
+}
+
 ul {
-    color: blue;
+    font-size: 20px;
 }
 
 li {
     color: red;
-}
-
-i {
-    color: green;/*<i></i>=green*/
+    font-weight: bold;
 }
