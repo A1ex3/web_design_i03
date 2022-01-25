@@ -1,7 +1,9 @@
-h1{font-size:50px;
-   text-align:center;
+.aa {
+    font-family: Arial;
 }
-h2{font-size:30px;
-   font-style:normal;
-}
-p{font-size:30px;}
+.bb{font-family:'Times New Roman';}
+
+.cc{font-family:'Comic Sans MS';}
+
+.ee {
+    font-family: Impact;}
