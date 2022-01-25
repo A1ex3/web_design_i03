@@ -1,5 +1,14 @@
-.eee, .zzz {
-    font-size: 20px;
-    line-height: 1.5;
+/*Задание 2*/
+.eee, .zzz, .ggg {
+    text-align: center;
     font-family: Arial;
+}
+.eee {
+    font-size: 20px;
+}
+.zzz {
+    font-size: 30px;
+}
+.ggg {
+    font-size: 35px;
 }
