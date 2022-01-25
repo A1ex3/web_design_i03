@@ -1,9 +1,4 @@
-.one {
-    font: 13px/20px 'Times New Roman';
+p{text-indent:50px;
+  text-align:justify;
+  width:400px;
 }
-.two{width:300px;
-     color:red;
-     font:bold 40px Arial;
-}
-.three{text-indent:50px;
-       font:bold italic 60px/40px Arial }
