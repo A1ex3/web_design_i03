@@ -1,3 +1,7 @@
 ul {
-    color: blue;/*<li></li>=blue*/
+    color: blue;
+}
+
+li {
+    color: red;/*<li></li>=red*/
 }
