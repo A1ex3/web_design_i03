@@ -1,3 +1,7 @@
 p {
-    color: blue;/*<b></b>=blue*/
+    color: blue;
+}
+
+b {
+    color: red;/*<b></b>=red*/
 }
