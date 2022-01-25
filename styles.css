@@ -1,13 +1,18 @@
-.overln{text-decoration:overline;}
-.ln-through{text-decoration:line-through;}
-.underln{text-decoration:underline;}
-
-div {
-    text-align: center;
-        position:absolute;
-        top:0px;
-        left:300px;
+body{font-family:Georgia;}
+h1{text-indent:60px;
+   color:blue;
 }
-a {
-    color: red; text-decoration:none;
+h2{text-indent:100px;
+   color:green;
+   font-weight:normal;
+}
+p {
+    text-indent: 30px;
+    text-align: justify;
+    width: 450px;
+}
+i{color:green;}
+li{text-align:justify;
+   width:460px;
+   font-size:15px;
 }
