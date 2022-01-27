@@ -1,13 +1,4 @@
-body {
-    background-size:100%;
-    background-image: url(https://i.gifer.com/3SMh.gif); /* Путь к фоновому изображению */
-    background-repeat: no-repeat;
-}
-
-.red{color:red;}
-.tim{font-family:'Times New Roman'}
-.siz{font-size:45px;}
-.orange{color:orange;}
-.Ari{font-family:Arial;}
-.ali{text-align:center;}}
+#elem1{color:red;}
+#elem2{color:green;}
+#elem3{color:cyan;}
 
