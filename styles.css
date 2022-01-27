@@ -1,3 +1,15 @@
-.eee p.bbb {
+.success {
+    color: green;
+}
+.large {
+    font-size: 30px;
+}
+
+.error {
     color: red;
+}
+
+
+.small {
+    font-size: 20px;
 }
