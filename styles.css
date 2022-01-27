@@ -1,3 +1,9 @@
 @charset "utf-8";
 
-.fff h2.bbb{color:red;}
+h2 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
