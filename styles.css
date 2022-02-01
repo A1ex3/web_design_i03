@@ -1,10 +1,20 @@
 @charset "utf-8";
 
+/*Задание 1*/
+#one li:first-child{
+    color:red;
+}
 
-.block a.zzz {
+/*Задание 2*/
+#two li:last-child {
     color: red;
 }
 
-.block a.zzz:hover {
-        text-decoration: none;
-    }
+/*Задание 3*/
+#three li:last-child{
+    color:green;
+}
+
+#three li:first-child{
+    color:red;
+}
