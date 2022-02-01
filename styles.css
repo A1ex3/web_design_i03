@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 
-a.zzz {
+#block a.zzz {
     color: red;
 }
 
-    a.zzz:hover {
+#block a.zzz:hover {
         text-decoration: none;
     }
