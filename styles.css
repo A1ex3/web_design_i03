@@ -1,12 +1,17 @@
 @charset "utf-8";
 
 
-DIV[class|="top-"] {
-    background: #306589; /* Цвет фона */
-    color: #acdb4c; /* Цвет текста */
-    padding: 5px; /* Поля */
+a:link{
+    color:cyan;
+}
+a:visited{
+    color:green;
 }
 
-    DIV[class|="top-"] A {
-        color: #fff; /* Цвет ссылок */
-    }
+a:hover{
+    color:red;
+    text-decoration:none;
+}
+a:active{
+    color:black;
+}
