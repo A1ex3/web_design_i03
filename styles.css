@@ -1,20 +1,18 @@
 @charset "utf-8";
 
-/*Задание 1*/
-#one li:first-child{
+/*Задание 4*/
+#four li:nth-child(3){
     color:red;
 }
 
-/*Задание 2*/
-#two li:last-child {
-    color: red;
-}
-
-/*Задание 3*/
-#three li:last-child{
+/*Задание 5*/
+#five li:nth-child(2n+2){
     color:green;
 }
-
-#three li:first-child{
+#five li:nth-child(2n+1) {
+    color: red;
+}
+/*Задание 6*/
+#six li:nth-child(3n+3){
     color:red;
 }
