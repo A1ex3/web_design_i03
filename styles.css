@@ -1,5 +1,5 @@
 @charset "utf-8";
 
-#elem ~ li{
-    color:red;
+main * p {
+    color: red;
 }
