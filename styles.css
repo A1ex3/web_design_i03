@@ -1,12 +1,10 @@
 @charset "utf-8";
 
 
-a{
-    color:cyan;
-    text-decoration:none;
+a {
+    color: red;
 }
 
-a:hover{
-    color:red;
-    text-decoration:underline;
-}
+a:hover {        
+    text-decoration: none;
+   }
