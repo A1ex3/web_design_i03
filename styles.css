@@ -1,18 +1,25 @@
 @charset "utf-8";
 
-/*Задание 4*/
-#four li:nth-child(3){
+/*Задание 7*/
+#seven li:nth-last-child(2){
     color:red;
 }
 
-/*Задание 5*/
-#five li:nth-child(2n+2){
-    color:green;
+/*Задание 8*/
+#eight ul{margin-top:50px; margin-bottom:50px;}
+#eight li:only-child{color:red;}
+
+/*Задание 9*/
+#nine li:empty {
+    border: 0.5px solid blue;
+    list-style-type: circle;
+    color: blue;
+    width: 100px;
 }
-#five li:nth-child(2n+1) {
+
+#nine li{
+    border: 1px solid blue;
+    list-style-type: circle;
     color: red;
-}
-/*Задание 6*/
-#six li:nth-child(3n+3){
-    color:red;
+    width: 100px;
 }
