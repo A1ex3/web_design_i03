@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-a[href^="http://"] {
+a[href$=".html"] {
     text-decoration: none;
     color: red;
 }
