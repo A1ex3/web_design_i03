@@ -1,14 +1,17 @@
 @charset "utf-8";
 
 
-.one p:first-of-type {
-    color:red;
+.one h2:nth-of-type(2) {
+    color: red;
+}
+
+.two h2:nth-last-of-type(2) {
+    color: red;
 }
 
 .two {
-    margin-left:300px;
-    margin-top: -338px;
-}
-.two h2:last-of-type {
-    color: red;
+    left: 200px;
+    position: absolute;
+    top: 0px;
+    padding: 0px;
 }
