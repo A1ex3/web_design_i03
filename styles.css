@@ -2,24 +2,32 @@
 
 
 .recto {
-    width: 300px;
-    height: 200px;
-    border-left: 3px solid orange;
-    border-top: 3px solid blue;
-    border-right: 3px solid green;
-    border-bottom: 3px solid red;
+    width: 250px;
+    height: 260px;
+    border:1px solid green;
+    border-radius:20px;
 }
 
 .rectt {
-    padding:0px;
-    position:absolute;
-    top:8px;
-    left:400px;
+    padding: 0px;
+    position: absolute;
+    top: 8px;
+    left: 400px;
 
-    width: 300px;
-    height: 200px;
-    border-left: 3px solid red;
-    border-top: 1px solid blue;
-    border-right: 3px dotted green;
-    border-bottom: 1px solid blue;
+    width: 250px;
+    height: 260px;
+    border: 1px solid #4DEE99;
+    border-radius: 20px;
+    background-color: #4DEE99;
+}
+
+.circle {
+    padding: 0px;
+    position: absolute;
+    top: 300px;
+
+    width:250px;
+    height:250px;
+    border:1px solid green;
+    border-radius:500px;
 }
