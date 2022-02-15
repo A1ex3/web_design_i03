@@ -1,9 +1,10 @@
 @charset "utf-8";
 
 
-#elem {
-    width: 300px;
-    height: 100px;
-    color: white;
-    background-color: #7E89EB;
+#elem{
+    text-align:center;
+    width:400px;
+    height:300px;
+    color:white;
+    background-color:#7E89EB;
 }
