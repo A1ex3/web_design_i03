@@ -1,14 +1,14 @@
 @charset "utf-8";
 
 
-.one ul{
-    list-style-type:square;
+.one ol{
+    list-style-type:lower-alpha;
 }
 
-.two ul {
-    list-style-type: circle;
+.two ol {
+    list-style-type: lower-greek;
 }
 
-.three ul {
-    list-style-type: none;
+.three ol {
+    list-style-type: upper-latin;
 }
