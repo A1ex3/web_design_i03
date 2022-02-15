@@ -1,14 +1,44 @@
 @charset "utf-8";
 
 
-.one li:not(.elem){
-    color:red;
+.one #parent {
+    width: 400px;
+    height:400px;
+    border: 1px dashed blue;
 }
 
-.two li:not(:first-child){
-    color:red;
+.one #child {
+    height: 300px;
+    width: 300px;
+    border: 1px solid orange;
+    margin: 40px;
 }
 
-.three li:not(:first-child,:last-child){
-    color:red;
+
+
+.two{
+    padding:0px;
+    position:absolute;
+    left:500px;
+    top:8px;
 }
+.two #parent {
+    width: 400px;
+    height: 400px;
+    border: 1px dashed blue;
+}
+
+.two #child {
+    height: 300px;
+    width: 300px;
+    border: 1px dashed green;
+    margin: 40px;
+}
+
+.two #ch{
+    height: 170px;
+    width: 170px;
+    border: 1px solid red;
+    margin: -280px 100px;
+}
+
