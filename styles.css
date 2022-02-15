@@ -1,8 +1,14 @@
 @charset "utf-8";
 
 
-body {
-    background-image: url("bg.png");
-    background-repeat: repeat-x;
+.one ul{
+    list-style-type:square;
+}
 
+.two ul {
+    list-style-type: circle;
+}
+
+.three ul {
+    list-style-type: none;
 }
