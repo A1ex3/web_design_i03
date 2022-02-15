@@ -1,31 +1,9 @@
 @charset "utf-8";
 
 
-.recto {
-    width: 250px;
-    height: 260px;
+#elem {
+    width: 100px;
+    height: 100px;
     border: 1px solid green;
-    border-radius: 10px 20px 70px 100px; /*border-radius:top-left top-right bottom-right bottom-left*/
-}
-
-.rectt {
-    padding:0px;
-    position:absolute;
-    top:8px;
-    left:300px;
-
-    width: 250px;
-    height: 260px;
-    border: 1px solid green;
-    border-radius: 10px 40px;
-}
-
-.rectth {
-    padding: 0px;
-    position: absolute;
-    top: 300px;
-    width: 250px;
-    height: 260px;
-    border: 1px solid green;
-    border-radius: 40px 23px 40px;
+    border-radius: 50%;
 }
