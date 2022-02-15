@@ -1,6 +1,14 @@
 @charset "utf-8";
 
 
-h2:only-of-type {
-    color: red;
+.one li:not(.elem){
+    color:red;
+}
+
+.two li:not(:first-child){
+    color:red;
+}
+
+.three li:not(:first-child,:last-child){
+    color:red;
 }
