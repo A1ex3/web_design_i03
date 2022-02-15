@@ -1,41 +1,25 @@
 @charset "utf-8";
 
 
-.sol {
-    border: 1px solid red;
-    width: 400px;
-    height: 300px;
+.recto {
+    width: 300px;
+    height: 200px;
+    border-left: 3px solid orange;
+    border-top: 3px solid blue;
+    border-right: 3px solid green;
+    border-bottom: 3px solid red;
 }
 
-.dot {
-    padding: 0px;
-    position: absolute;
-    top: 10px;
-    left: 500px;
+.rectt {
+    padding:0px;
+    position:absolute;
+    top:8px;
+    left:400px;
 
-    border: 2px dotted blue;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
+    border-left: 3px solid red;
+    border-top: 1px solid blue;
+    border-right: 3px dotted green;
+    border-bottom: 1px solid blue;
 }
-
-.dash {
-    padding: 0px;
-    position: absolute;
-    top: 350px;
-    
-    border:4px dashed green;
-    width: 400px;
-    height: 300px;
-}
-.doub {
-    padding: 0px;
-    position: absolute;
-    top: 350px;
-    left: 500px;
-
-    border:5px double orange;
-    width: 400px;
-    height: 300px;
-
-}
-
