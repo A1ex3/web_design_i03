@@ -1,17 +1,6 @@
 @charset "utf-8";
 
 
-.one h2:nth-of-type(2) {
+h2:only-of-type {
     color: red;
-}
-
-.two h2:nth-last-of-type(2) {
-    color: red;
-}
-
-.two {
-    left: 200px;
-    position: absolute;
-    top: 0px;
-    padding: 0px;
 }
